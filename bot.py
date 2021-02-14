@@ -16,7 +16,7 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
 # Resolve BOT API KEY from environment variable
-updater = Updater(os.environ.get("BOT_API_KEY"), use_context=True)
+updater = Updater(os.environ.get("1646518406:AAGg3SHvQEp5BcqQFot7cgCMzdUSuga5AfI"), use_context=True)
 
 # Resolve BOT LOG CHAT from environment variable
 BOT_LOG_CHAT = os.environ.get("BOT_LOG_CHAT")
